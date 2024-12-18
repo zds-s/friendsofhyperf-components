@@ -11,9 +11,7 @@ reviews:
   collapse_walkthrough: true
   auto_review:
     enabled: true
-    drafts: false
-    base_branches:
-      type:
-        - main
+    drafts: true
+    base_branches: ["main"]
 chat:
   auto_reply: true
